@@ -1,0 +1,72 @@
+#include <vector>
+#include <list>
+#include <fstream>
+#include <map>
+#include <set>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <cctype>
+#include <string>
+#include <cstring>
+#include <ctime>
+#include <iterator>
+#define print_vector(a) cout << "{"; for (int i = 0; i < a.size(); i++) { if (i == a.size() - 1) {cout << a[i];} else { cout << a[i] << ",";}} cout << "}n";
+using namespace std;
+
+class MyLongCake {
+  public: int cut(int n);
+};
+
+int MyLongCake::cut(int n) {
+  return 0;
+}
+
+// CUT begin
+//------------------------------------------------------------------------------
+const double CASE_TIME_OUT = 2.0;
+
+bool disabledTest(int x)
+{
+    return x < 0;
+}
+template<class I, class O> vector<pair<I,O>> getTestCases() { return {
+    { { 6 }, {4} },
+    { { 3 }, {1} },
+    { { 15 }, {7} },
+    { { 100000 }, {60000} },
+    // Your custom test goes here:
+    //{ { }, {} },
+};}
+
+//------------------------------------------------------------------------------
+// Tester code:
+    //#define DISABLE_THREADS
+    #include "../tester.cpp"
+    struct input {
+        int p0;
+
+        int run(MyLongCake* x) {
+            return x->cut(p0);
+        }
+        void print() { Tester::printArgs(p0); }
+    };
+    
+    int main() {
+        return Tester::runTests<MyLongCake>(
+            getTestCases<input, Tester::output<int>>(), disabledTest, 
+            250, 1398081598, CASE_TIME_OUT, Tester::COMPACT_REPORT
+        );
+    }
+// CUT end

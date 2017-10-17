@@ -1,0 +1,90 @@
+Cached problem tests
+Test 0
+[1;31mFAILED[0m:
+Expected value was:
+3 4
+Outputted:
+Looking at num 0
+sums 0 9 0 0 0
+new r -1
+0
+Looking at num 2
+sums 2 0 0 1 0
+new r -1
+0
+Looking at num 3
+sums 3 2 0 2 1
+new r 0
+sums 6 2 0 0 0
+new l 1
+1
+Looking at num 4
+sums 8 5 0 3 1
+new r 0
+sums 12 5 0 0 0
+new l 1
+1
+Looking at num 6
+sums 12 7 0 4 2
+new l 3
+sums 6 4 3 4 3
+new r 2
+3
+3 4
+
+Test 1
+[1;31mFAILED[0m:
+Expected value was:
+3 5
+Outputted:
+Looking at num 5
+sums 0 10 0 0 0
+new r -1
+0
+Looking at num 5
+sums 5 5 0 1 0
+new r -1
+0
+Looking at num 5
+sums 5 5 0 2 1
+new r 0
+sums 10 10 0 0 0
+new r -1
+0
+3 5
+
+Test 2
+[1;31mFAILED[0m:
+Expected value was:
+4 2
+Outputted:
+Looking at num 1
+sums 0 6 0 0 0
+new r -1
+0
+Looking at num 1
+sums 1 1 0 1 0
+new r -1
+0
+Looking at num 2
+sums 2 1 0 2 1
+new r 0
+sums 4 2 0 0 0
+new r -1
+0
+Looking at num 2
+sums 4 3 0 3 1
+new r 0
+sums 6 4 0 0 0
+new r -1
+0
+Looking at num 3
+sums 6 4 0 4 2
+new r 1
+sums 12 6 0 1 0
+new l 1
+sums 9 5 1 1 1
+new l 2
+2
+4 2
+

@@ -1,0 +1,13 @@
+input;jump 9
+jump 10
+jump 8
+pop
+pop;*
+pop;dup
+pop;dup
+print;jump 13
+print;jump 13
+push -1;*
+push 1;jump 6
+push 2;jump 4
+push 3;jump 8

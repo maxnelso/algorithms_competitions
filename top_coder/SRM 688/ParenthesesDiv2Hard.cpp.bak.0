@@ -1,0 +1,80 @@
+#include <bitset>
+#include <vector>
+#include <list>
+#include <fstream>
+#include <map>
+#include <set>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <cctype>
+#include <string>
+#include <cstring>
+#include <ctime>
+#include <iterator>
+
+#if DEBUG
+#include "prettyprint.hpp"
+#define print_container(c) cout << c << endl;
+#endif
+
+using namespace std;
+
+class ParenthesesDiv2Hard {
+  public: int minSwaps(string s, vector<int> L, vector<int> R);
+};
+
+int ParenthesesDiv2Hard::minSwaps(string s, vector<int> L, vector<int> R) {
+  return 0;
+}
+
+// CUT begin
+//------------------------------------------------------------------------------
+const double CASE_TIME_OUT = 2.0;
+
+bool disabledTest(int x)
+{
+    return x < 0;
+}
+template<class I, class O> vector<pair<I,O>> getTestCases() { return {
+    { { ")(", {0}, {1} }, {1} },
+    { { "(())", {0,2}, {1,3} }, {1} },
+    { { "(((())", {0,2}, {1,3} }, {2} },
+    { { "(((((((((", {0,2}, {1,3} }, {-1} },
+    { { "))()())((()()()()()())))((((((", {1,6,13,17,23,25}, {4,7,16,20,24,28} }, {5} },
+    { { "(", {0}, {0} }, {-1} },
+    // Your custom test goes here:
+    //{ { , {}, {}}, {} },
+};}
+
+//------------------------------------------------------------------------------
+// Tester code:
+    //#define DISABLE_THREADS
+    #include "tester.cpp"
+    struct input {
+        string p0;vector<int> p1;vector<int> p2;
+
+        int run(ParenthesesDiv2Hard* x) {
+            return x->minSwaps(p0,p1,p2);
+        }
+        void print() { Tester::printArgs(p0,p1,p2); }
+    };
+    
+    int main() {
+        return Tester::runTests<ParenthesesDiv2Hard>(
+            getTestCases<input, Tester::output<int>>(), disabledTest, 
+            1000, 1472113759, CASE_TIME_OUT, Tester::COMPACT_REPORT
+        );
+    }
+// CUT end

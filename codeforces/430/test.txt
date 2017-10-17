@@ -1,0 +1,7 @@
+Sending request
+Received data
+Parsing
+Test 0
+[1;32mPASSED[0m
+Test 1
+[1;32mPASSED[0m

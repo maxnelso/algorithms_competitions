@@ -1,0 +1,13 @@
+input; jump 3 -> jump to push a
+input; jump 9 -> jump to print
+input; jump x -> jump to push c
+jump -> some push
+jump x -> to beginning
+pop
+pop; *
+pop; dup
+print; jump 13
+push -1; *;
+push 1; jump x -> pop;dup
+push 2; jump x -> pop;*
+push 3; jump 8 -> pop;dup

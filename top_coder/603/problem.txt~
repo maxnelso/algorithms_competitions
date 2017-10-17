@@ -1,0 +1,74 @@
+#include <vector>
+#include <list>
+#include <map>
+#include <set>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <cctype>
+#include <string>
+#include <cstring>
+#include <ctime>
+#include <iterator>
+#define print_vector(a) cout << "{"; for (int i = 0; i < a.size(); i++) { if (i == a.size() - 1) {cout << a[i];} else { cout << a[i] << ",";}} cout << "}\n";
+using namespace std;
+
+class GraphWalkWithProbabilities {
+  public: double findprob(vector <string> graph, vector <int> winprob, vector <int> looseprob, int Start);
+};
+
+bool seen[50];
+
+double helper(vector <string> graph, vector <int> winprob, vector<int> loseprob, int start, vector<int> path) {
+  double lose = 0;
+  double win = 0;
+  double p = 1;
+  for (int i = 1; i < path.size(); i++) {
+    lose = lose + (p * (loseprob[path[i]] / 100.0));
+    win = win + (p * (winprob[path[i]] / 100.0));
+    p = p * (100 - winprob[path[i]] - loseprob[path[i]]) / 100.0;
+  }
+  double best = (1.0 - lose - win) * ((1.0 * winprob[start]) / (winprob[start] + loseprob[start])) + win;
+  int count = 0;
+  for (int i = 0; i < graph[start].size(); i++) {
+    if (graph[start][i] == '1') {
+      cout << start << " " << i << endl;
+      if (!seen[i]) {
+        cout << "hio";
+        count++;
+        seen[i] = true;
+        vector<int> new_path(path);
+        new_path.push_back(i);
+        best = max(best, helper(graph, winprob, loseprob, i, new_path));
+      }
+    }
+  }
+  if (count == 0) {
+    print_vector(path);
+  }
+  return best;
+}
+
+double GraphWalkWithProbabilities::findprob(vector <string> graph, vector <int> winprob, vector <int> looseprob, int Start) {
+  if (graph.size() == 1) {
+    return ((1.0 * winprob[0]) / (winprob[0] + looseprob[0]));
+  }
+  memset(seen, false, sizeof(seen));
+  seen[Start] = true;
+  vector<int> path;
+  path.push_back(Start);
+  return helper(graph, winprob, looseprob, Start, path);
+}
+
+

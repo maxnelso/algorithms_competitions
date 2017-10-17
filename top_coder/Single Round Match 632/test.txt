@@ -1,0 +1,31 @@
+GoodSubset (1000 Points)
+
+  Testcase #0 ... (10, [])
+(5, [0])
+(2, [3])
+(1, [0, 3])
+PASSED! (0.00 seconds)
+  Testcase #1 ... (6, [])
+(3, [0])
+(2, [1])
+(1, [4])
+(1, [0, 1])
+PASSED! (0.00 seconds)
+  Testcase #2 ... PASSED! (0.00 seconds)
+  Testcase #3 ... (12, [])
+(6, [1])
+(4, [2])
+(3, [3])
+(2, [5])
+(1, [11])
+(2, [1, 2])
+(1, [1, 5])
+(1, [2, 3])
+PASSED! (0.00 seconds)
+  Testcase #4 ... (5, [])
+PASSED! (0.00 seconds)
+
+Passed : 5/5 cases
+Time   : 44 minutes 29 secs
+Score  : 454.94 points
+/usr/bin/xclip

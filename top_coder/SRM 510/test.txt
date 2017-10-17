@@ -1,0 +1,37 @@
+TheLuckyBasesDivTwo (1000 Points)
+
+  Testcase #0 ... hello!
+Starting
+Returning
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+PASSED! (0.00 seconds)
+  Testcase #1 ... PASSED! (0.00 seconds)
+  Testcase #2 ... hello!
+Starting
+Returning
+2
+3
+PASSED! (0.00 seconds)
+  Testcase #3 ... hello!
+Starting
+Returning
+2
+3
+4
+5
+6
+7
+PASSED! (0.00 seconds)

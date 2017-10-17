@@ -1,0 +1,35 @@
+jump 3;
+input;
+print
+push -1; *;
+print
+
+
+jump x; input
+jump y; input
+
+
+input; jump a
+input; jump b
+jump c;
+print; jump n;
+*; jump d;
+push -1; jump x
+
+
+input;
+jump 6;
+jump 3; push -1;
+print 
+
+push -1; input;
+print
+input; print
+jump 3
+
+
+*+-/ dup input jump pop print push
+
+x
+-x
+x*x

@@ -1,0 +1,5 @@
+input;print;jump 3
+input;dup;push -1;*;print;jump 3
+input;dup;push -5;pop;*;print;jump 3
+
+

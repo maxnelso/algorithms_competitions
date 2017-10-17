@@ -1,0 +1,11 @@
+input; jump 7;
+jump -> some push
+jump 10
+pop
+pop; *
+pop; dup
+print; jump 11
+push -1; *;
+push 1; jump 5 -> pop;dup
+push 2; jump x -> pop;*
+push 3; jump 8 -> pop;dup

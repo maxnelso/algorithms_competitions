@@ -1,0 +1,133 @@
+import sys
+import re
+
+def add_includes(f):
+  includes =["vector","list","map","set","deque","queue","stack","bitset","algorithm","functional","numeric","utility","sstream","iostream","iomanip","cstdio","cmath","cstdlib","cctype","string","cstring","ctime","iterator"]
+  for include in includes:
+    f.write("#include <{0}>\n".format(include))
+  f.write('#define print_vector(a) cout << "{"; for (int i = 0; i < a.size(); i++) { if (i == a.size() - 1) {cout << a[i];} else { cout << a[i] << ", ";}} cout << "}\n";')
+
+  f.write("using namespace std;\n")
+  f.write("\n")
+
+def add_class_and_method(f, params):
+  for i in range(len(params)):
+    if params[i] == "Class:":
+      class_name = params[i+1]
+    if params[i] == "Method signature:":
+      method_signature = params[i+1]
+  f.write("class {0} {{\n  public: {1};\n}};\n\n".format(class_name, method_signature))
+  f.write("{0} {1} {{\n}}\n\n".format(method_signature.split()[0], class_name + "::" + " ".join(method_signature.split()[1:])))
+
+def add_main(f, params):
+  test_cases = []
+  z = open("test.txt", 'w')
+  z.write(str(params))
+  for i in range(len(params)):
+    if params[i] == "Method:":
+      method_name = params[i+1]
+    if params[i] == "Class:":
+      class_name = params[i+1]
+    if params[i] == "Method signature:":
+      method_signature = params[i+1]
+      list_arguments = re.sub(r'\b <\b', '<', params[i+1]).split("(")[1].split()
+      arguments = []
+      for i in range(len(list_arguments)):
+        if i % 2 == 0:
+          arguments.append(list_arguments[i])
+      num_params = len(arguments)
+      return_type  = method_signature.split()[0]
+    if params[i] == "{0})".format(len(test_cases)):
+      test_case = []
+      count = 0
+      for j in range(num_params):
+        if params[i+j+3].startswith("{"):
+          rows = 0
+          builder = ''
+          while "}" not in params[i+j+rows+3]:
+            builder = builder + params[i+j+rows+3]
+            rows = rows + 1
+          builder = builder + params[i+j+rows+3]
+          test_case.append(builder)
+        else:
+          test_case.append(params[i+j+3])
+      while "Returns" not in params[i+count]:
+        count = count + 1
+      return_value = params[i+count].split()[1]
+      if return_type == "string":
+        test_case.append('{0}'.format(return_value));
+      else:
+        test_case.append(return_value)
+      test_cases.append(test_case)
+  f.write("int main () {\n")
+  f.write("  {0} dummy;\n".format(class_name))
+  f.write("  {0} result;\n\n".format(return_type))
+  id_num = 0
+  for case in test_cases:
+    arg = 0
+    test_arguments = []
+    for i in range(len(arguments)):
+      if arguments[i] == "vector<string>" or arguments[i] == "vector<int>":
+        type = arguments[i][6:].strip("<>")
+        if type == "string":
+          fixed = '{'
+          removed = case[arg][1:len(case[arg])-1].split(',')
+          for j in range(len(removed)):
+            if j != len(removed) - 1:
+              fixed = fixed + '{0}, '.format(removed[j])
+            else:
+              fixed = fixed + '{0}'.format(removed[j])
+          fixed = fixed + '}'
+          f.write("  static const {0} arr{1}[] = {2};\n".format(type, id_num, fixed))
+        else:
+          f.write("  static const {0} arr{1}[] = {2};\n".format(type, id_num, case[arg]))
+        f.write("  vector<{0}> test{1}(arr{1}, arr{1} + sizeof(arr{1}) / sizeof(arr{1}[0]));\n".format(type, id_num))
+        test_arguments.append("test{0}".format(id_num))
+        id_num = id_num + 1
+        arg = arg + 1
+      if arguments[i] == "int":
+        f.write("  int test{0} = {1};\n".format(id_num, case[arg]));
+        test_arguments.append("test{0}".format(id_num))
+        id_num = id_num + 1
+        arg = arg + 1
+      if arguments[i] == "string":
+        f.write('  string test{0} = {1};\n'.format(id_num, case[arg]));
+        test_arguments.append("test{0}".format(id_num))
+        id_num = id_num + 1
+        arg = arg + 1
+    test_run = "dummy.{0}(".format(method_name)
+    for i in range(len(test_arguments)):
+      if i != len(test_arguments) - 1:
+        test_run = test_run + "{0}, ".format(test_arguments[i])
+      else:
+        test_run = test_run + "{0})".format(test_arguments[i])
+    f.write('  result = {0};\n'.format(test_run))
+    f.write('  if (result == {0}) {{\n    printf("\\033[1;32mPASSED\\033[0m\\n");\n  }}'.format(case[arg]))
+    f.write(' else {\n')
+    if return_type == "int":
+      f.write('    printf("\\033[1;31mFAILED\\033[0m: Expected value was %d, outputted %d\\n", {0}, result);'.format(case[arg]))
+    elif return_type == "string":
+      f.write('    printf("\\033[1;31mFAILED\\033[0m: Expected value was %s, outputted %s\\n", {0}, result.c_str());'.format(case[arg]))
+    elif return_type == "double":
+      f.write('    printf("\\033[1;31mFAILED\\033[0m: Expected value was %f, outputted %f\\n", {0}, result);'.format(case[arg]))
+    f.write("\n  }\n\n")
+  f.write("\n}\n")
+
+def main(params):
+  for i in range(len(params)):
+    if params[i] == "Class:":
+      class_name = params[i+1]
+  f = open("{0}.cpp".format(class_name), 'w')
+  add_includes(f)
+  add_class_and_method(f, params)
+  add_main(f, params)
+  f.close()
+
+
+if __name__ == '__main__':
+  f = open("problem.txt", "r")
+  lines = f.readlines()
+  fixed = []
+  for line in lines:
+    fixed.append(line.rstrip())
+  main(fixed)

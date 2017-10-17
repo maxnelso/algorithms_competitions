@@ -1,0 +1,52 @@
+[1;36mTest 0[0m: ["/home/top/data/file","/home/user/pictures"]
+[, home, top, data, file]
+[, home, user, pictures]
+Time: 0.00 seconds.
+Desired answer:
+	"../../top/data/file"
+Your answer:
+	""
+ [1;31mX[0m
+[0;2m=========================================================================[0m
+[1;36mTest 1[0m: ["/home/user/movies/title","/home/user/pictures"]
+[, home, user, movies, title]
+[, home, user, pictures]
+Time: 0.00 seconds.
+Desired answer:
+	"../movies/title"
+Your answer:
+	""
+ [1;31mX[0m
+[0;2m=========================================================================[0m
+[1;36mTest 2[0m: ["/file","/"]
+[, file]
+[]
+Time: 0.00 seconds.
+Desired answer:
+	"file"
+Your answer:
+	""
+ [1;31mX[0m
+[0;2m=========================================================================[0m
+[1;36mTest 3[0m: ["/a/b/a/b/a/b","/a/b/a/a/b/a/b"]
+[, a, b, a, b, a, b]
+[, a, b, a, a, b, a, b]
+Time: 0.00 seconds.
+Desired answer:
+	"../../../../b/a/b"
+Your answer:
+	""
+ [1;31mX[0m
+[0;2m=========================================================================[0m
+[1;36mTest 4[0m: ["/root/root/root","/root"]
+[, root, root, root]
+[, root]
+Time: 0.00 seconds.
+Desired answer:
+	"root/root"
+Your answer:
+	""
+ [1;31mX[0m
+[0;2m=========================================================================[0m
+RelativePath: [1;31mX[0m [1;31mX[0m [1;31mX[0m [1;31mX[0m [1;31mX[0m ([1;41m390.37[0m).
+/usr/bin/xclip

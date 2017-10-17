@@ -1,0 +1,359 @@
+CheapestRoute (1000 Points)
+
+  Testcase #0 ... Looking at (0, 0)
+Looking at (0, 1)
+PASSED! (0.00 seconds)
+  Testcase #1 ... Looking at (0, 0)
+Looking at (2, 1)
+new cost: 1000
+old cost: 1000000000
+Looking at (3, 1)
+PASSED! (0.00 seconds)
+  Testcase #2 ... Looking at (0, 0)
+new cost: 2
+old cost: 1000000000
+Looking at (1, 0)
+new cost: 5
+old cost: 1000000000
+Looking at (2, 0)
+PASSED! (0.00 seconds)
+  Testcase #3 ... Looking at (0, 0)
+new cost: 0
+old cost: 1000000000
+Looking at (1, 0)
+PASSED! (0.00 seconds)
+  Testcase #4 ... Looking at (0, 0)
+new cost: 2
+old cost: 1000000000
+Looking at (1, 0)
+new cost: 3
+old cost: 1000000000
+Looking at (2, 0)
+new cost: 3
+old cost: 1000000000
+Looking at (3, 0)
+new cost: 8
+old cost: 1000000000
+Looking at (5, 1)
+new cost: 11
+old cost: 1000000000
+Looking at (4, 0)
+new cost: 14
+old cost: 1000000000
+Looking at (4, 1)
+new cost: 22
+old cost: 11
+Looking at (6, 1)
+new cost: 14
+old cost: 16
+Looking at (5, 2)
+new cost: 20
+old cost: 1000000000
+Looking at (0, 2)
+new cost: 22
+old cost: 1000000000
+Looking at (5, 0)
+new cost: 14
+old cost: 1000000000
+Looking at (7, 1)
+new cost: 14
+old cost: 1000000000
+Looking at (3, 1)
+new cost: 21
+old cost: 16
+Looking at (7, 2)
+new cost: 25
+old cost: 1000000000
+Looking at (3, 2)
+new cost: 30
+old cost: 25
+Looking at (4, 2)
+new cost: 31
+old cost: 20
+Looking at (7, 1)
+new cost: 14
+old cost: 14
+Looking at (6, 2)
+new cost: 23
+old cost: 25
+Looking at (5, 3)
+new cost: 30
+old cost: 1000000000
+Looking at (0, 3)
+new cost: 32
+old cost: 1000000000
+Looking at (1, 2)
+new cost: 23
+old cost: 26
+Looking at (6, 0)
+new cost: 17
+old cost: 1000000000
+Looking at (0, 1)
+new cost: 24
+old cost: 1000000000
+Looking at (8, 1)
+Looking at (2, 1)
+new cost: 17
+old cost: 16
+Looking at (8, 2)
+Looking at (2, 2)
+new cost: 23
+old cost: 25
+Looking at (7, 3)
+new cost: 35
+old cost: 33
+Looking at (3, 3)
+new cost: 40
+old cost: 35
+Looking at (4, 3)
+new cost: 41
+old cost: 30
+Looking at (7, 2)
+new cost: 23
+old cost: 23
+Looking at (6, 3)
+new cost: 33
+old cost: 35
+Looking at (5, 4)
+new cost: 41
+old cost: 1000000000
+Looking at (0, 4)
+new cost: 43
+old cost: 1000000000
+Looking at (1, 3)
+new cost: 33
+old cost: 36
+Looking at (2, 2)
+new cost: 23
+old cost: 23
+Looking at (7, 0)
+new cost: 17
+old cost: 1000000000
+Looking at (1, 1)
+new cost: 20
+old cost: 17
+Looking at (8, 2)
+Looking at (1, 1)
+new cost: 20
+old cost: 17
+Looking at (8, 3)
+Looking at (3, 2)
+new cost: 28
+old cost: 25
+Looking at (2, 3)
+new cost: 33
+old cost: 35
+Looking at (7, 4)
+new cost: 46
+old cost: 44
+Looking at (3, 4)
+new cost: 51
+old cost: 46
+Looking at (4, 4)
+new cost: 52
+old cost: 41
+Looking at (7, 3)
+new cost: 33
+old cost: 33
+Looking at (6, 4)
+new cost: 44
+old cost: 46
+Looking at (5, 5)
+new cost: 53
+old cost: 1000000000
+Looking at (0, 5)
+new cost: 55
+old cost: 1000000000
+Looking at (1, 4)
+new cost: 44
+old cost: 47
+Looking at (2, 3)
+new cost: 33
+old cost: 33
+Looking at (8, 0)
+Looking at (8, 4)
+Looking at (3, 3)
+new cost: 38
+old cost: 35
+Looking at (2, 4)
+new cost: 44
+old cost: 46
+Looking at (7, 5)
+new cost: 58
+old cost: 56
+Looking at (3, 5)
+new cost: 63
+old cost: 58
+Looking at (4, 5)
+new cost: 64
+old cost: 53
+Looking at (7, 4)
+new cost: 44
+old cost: 44
+Looking at (6, 5)
+new cost: 56
+old cost: 58
+Looking at (5, 6)
+new cost: 66
+old cost: 1000000000
+Looking at (0, 6)
+new cost: 68
+old cost: 1000000000
+Looking at (1, 5)
+new cost: 56
+old cost: 59
+Looking at (2, 4)
+new cost: 44
+old cost: 44
+Looking at (8, 5)
+Looking at (3, 4)
+new cost: 49
+old cost: 46
+Looking at (2, 5)
+new cost: 56
+old cost: 58
+Looking at (7, 6)
+new cost: 71
+old cost: 69
+Looking at (3, 6)
+new cost: 76
+old cost: 71
+Looking at (4, 6)
+new cost: 77
+old cost: 66
+Looking at (7, 5)
+new cost: 56
+old cost: 56
+Looking at (6, 6)
+new cost: 69
+old cost: 71
+Looking at (5, 7)
+new cost: 80
+old cost: 1000000000
+Looking at (0, 7)
+new cost: 82
+old cost: 1000000000
+Looking at (1, 6)
+new cost: 69
+old cost: 72
+Looking at (2, 5)
+new cost: 56
+old cost: 56
+Looking at (8, 6)
+Looking at (3, 5)
+new cost: 61
+old cost: 58
+Looking at (2, 6)
+new cost: 69
+old cost: 71
+Looking at (7, 7)
+new cost: 85
+old cost: 83
+Looking at (3, 7)
+new cost: 90
+old cost: 85
+Looking at (4, 7)
+new cost: 91
+old cost: 80
+Looking at (7, 6)
+new cost: 69
+old cost: 69
+Looking at (6, 7)
+new cost: 83
+old cost: 85
+Looking at (5, 8)
+new cost: 95
+old cost: 1000000000
+Looking at (0, 8)
+new cost: 97
+old cost: 1000000000
+Looking at (1, 7)
+new cost: 83
+old cost: 86
+Looking at (2, 6)
+new cost: 69
+old cost: 69
+Looking at (8, 7)
+Looking at (3, 6)
+new cost: 74
+old cost: 71
+Looking at (2, 7)
+new cost: 83
+old cost: 85
+Looking at (7, 8)
+new cost: 100
+old cost: 98
+Looking at (3, 8)
+new cost: 105
+old cost: 100
+Looking at (4, 8)
+new cost: 106
+old cost: 95
+Looking at (7, 7)
+new cost: 83
+old cost: 83
+Looking at (6, 8)
+new cost: 98
+old cost: 100
+Looking at (5, 9)
+new cost: 111
+old cost: 1000000000
+Looking at (0, 9)
+new cost: 113
+old cost: 1000000000
+Looking at (1, 8)
+new cost: 98
+old cost: 101
+Looking at (2, 7)
+new cost: 83
+old cost: 83
+Looking at (8, 8)
+Looking at (3, 7)
+new cost: 88
+old cost: 85
+Looking at (2, 8)
+new cost: 98
+old cost: 100
+Looking at (7, 9)
+new cost: 116
+old cost: 114
+Looking at (3, 9)
+new cost: 121
+old cost: 116
+Looking at (4, 9)
+new cost: 122
+old cost: 111
+Looking at (7, 8)
+new cost: 98
+old cost: 98
+Looking at (6, 9)
+new cost: 114
+old cost: 116
+Looking at (1, 9)
+new cost: 114
+old cost: 117
+Looking at (2, 8)
+new cost: 98
+old cost: 98
+Looking at (8, 9)
+Looking at (3, 8)
+new cost: 103
+old cost: 100
+Looking at (2, 9)
+new cost: 114
+old cost: 116
+Looking at (7, 9)
+new cost: 114
+old cost: 114
+Looking at (2, 9)
+new cost: 114
+old cost: 114
+Looking at (3, 9)
+new cost: 119
+old cost: 116
+PASSED! (0.00 seconds)
+
+Passed : 5/5 cases
+Time   : 79 minutes 34 secs
+Score  : 357.12 points
+/usr/bin/xclip

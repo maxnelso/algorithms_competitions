@@ -1,0 +1,49 @@
+import math
+import itertools
+import sys
+
+
+def blah(cycles):
+    lengths = []
+    for i in range(len(cycles)):
+        lengths.append(len(cycles[i]))
+    denom = 1
+    for i in range(len(lengths)):
+        denom = (denom * math.factorial(lengths[i]));
+    numer = 0
+    for i in range(len(lengths)):
+        numer += lengths[i]
+    return math.factorial(numer) / denom;
+
+FILENAME = 'c1'
+
+MOD = 10**9 + 9
+
+f = open(FILENAME + '.in', 'r')
+tests = int(f.readline())
+sys.stdout = open(FILENAME + '.out', 'w')
+for test in range(tests):
+    f.readline()
+    n = int(f.readline())
+    permutation = map(int, f.readline().split())
+    cycles = []
+    seen = {}
+    for i in range(len(permutation)):
+        if permutation[i] in seen:
+            continue
+        new_cycle = []
+        index = permutation[i] - 1
+        seen[i] = True
+        if i + 1 == permutation[i]:
+            continue
+
+        while not permutation[index] in seen:
+            new_cycle.append(index)
+            seen[permutation[index]] = True
+            index = permutation[index] - 1
+        cycles.append(new_cycle)
+
+    out = blah(cycles) % MOD;
+    for i in range(len(cycles)):
+        out = (out * (math.factorial(len(cycles[i])) / 2)) % MOD
+    print out

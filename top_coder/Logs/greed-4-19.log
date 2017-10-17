@@ -1,0 +1,124 @@
+[Apr 19 13:05:17] [greed.util.FileSystem.createFolder@L29] FileSystem[INFO]: Create folder [Logs]
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/darkgray.theme.css
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/default.css
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/blue.theme.css
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/dark.theme.css
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/desc.html.tmpl
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: SRM 548/KingdomAndCities.html
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/testcase/testcases.tmpl
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: SRM 548/KingdomAndCities.sample
+[Apr 19 13:05:18] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/filetest/cpp.tmpl
+[Apr 19 13:06:58] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/darkgray.theme.css
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/default.css
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/blue.theme.css
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/dark.theme.css
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/desc.html.tmpl
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: SRM 548/KingdomAndDice.html
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/testcase/testcases.tmpl
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: SRM 548/KingdomAndDice.sample
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/filetest/cpp.tmpl
+[Apr 19 13:07:01] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/source/cpp.tmpl
+[Apr 19 13:13:50] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 13:13:50] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/darkgray.theme.css
+[Apr 19 13:13:50] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/default.css
+[Apr 19 13:13:50] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/blue.theme.css
+[Apr 19 13:13:50] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/dark.theme.css
+[Apr 19 13:13:50] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/desc.html.tmpl
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/darkgray.theme.css
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/default.css
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/blue.theme.css
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/dark.theme.css
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/desc.html.tmpl
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: Test/KingdomAndDice.html
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/testcase/testcases.tmpl
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: Test/KingdomAndDice.sample
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/filetest/cpp.tmpl
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/source/cpp.tmpl
+[Apr 19 13:23:47] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: Test/KingdomAndDice.cpp
+[Apr 19 13:23:47] [greed.util.FileSystem.backup@L103] FileSystem[INFO]: Backing up file Test/KingdomAndDice.cpp
+[Apr 19 13:23:47] [greed.util.FileSystem.backup@L117] FileSystem[INFO]: /home/maxnelso/Dropbox/competitions/top_coder/division_1/Test/KingdomAndDice.cpp -> /home/maxnelso/Dropbox/competitions/top_coder/division_1/Test/KingdomAndDice.cpp.bak.0
+[Apr 19 13:26:30] [greed.util.FileSystem.createFolder@L29] FileSystem[INFO]: Create folder [Logs]
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/darkgray.theme.css
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/default.css
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/blue.theme.css
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/dark.theme.css
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/desc.html.tmpl
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: Test/KingdomAndDice.html
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/testcase/testcases.tmpl
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: Test/KingdomAndDice.sample
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/filetest/cpp.tmpl
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/source/cpp.tmpl
+[Apr 19 13:26:31] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: Test/KingdomAndDice.cpp
+[Apr 19 13:26:31] [greed.util.FileSystem.backup@L103] FileSystem[INFO]: Backing up file Test/KingdomAndDice.cpp
+[Apr 19 13:26:31] [greed.util.FileSystem.backup@L117] FileSystem[INFO]: /home/maxnelso/Dropbox/competitions/top_coder/division_1/Test/KingdomAndDice.cpp -> /home/maxnelso/Dropbox/competitions/top_coder/division_1/Test/KingdomAndDice.cpp.bak.1
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/darkgray.theme.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/default.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/blue.theme.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/dark.theme.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/desc.html.tmpl
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/darkgray.theme.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/default.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/blue.theme.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/dark.theme.css
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/desc.html.tmpl
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: Test/KingdomAndDice.html
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/testcase/testcases.tmpl
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: Test/KingdomAndDice.sample
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/filetest/cpp.tmpl
+[Apr 19 13:26:33] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/source/cpp.tmpl
+[Apr 19 13:29:03] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 13:29:03] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/darkgray.theme.css
+[Apr 19 13:29:03] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/default.css
+[Apr 19 13:29:03] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/blue.theme.css
+[Apr 19 13:29:03] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/dark.theme.css
+[Apr 19 13:29:03] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/desc.html.tmpl
+[Apr 19 13:29:03] [greed.util.FileSystem.createFolder@L29] FileSystem[INFO]: Create folder [Test]
+[Apr 19 13:29:03] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/testcase/testcases.tmpl
+[Apr 19 13:29:03] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/filetest/cpp.tmpl
+[Apr 19 13:29:03] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/source/cpp.tmpl
+[Apr 19 14:16:18] [greed.Greed.initialize@L90] Greed[ERROR]: Initialization error, with an com.typesafe.config.ConfigException$Parse: /home/maxnelso/Dropbox/competitions/top_coder/division_1/greed.conf: 29: in value for key 'greed.language.cpp.templateDef': expecting a close brace or a field name here, got end of file
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parser$ParseContext.parseError(Parser.java:322)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parser$ParseContext.parseError(Parser.java:318)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parser$ParseContext.parseKey(Parser.java:468)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parser$ParseContext.parseObject(Parser.java:622)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parser$ParseContext.parseValue(Parser.java:401)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parser$ParseContext.parseObject(Parser.java:650)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parser$ParseContext.parse(Parser.java:825)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parser.parse(Parser.java:34)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parseable.rawParseValue(Parseable.java:199)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]          com.typesafe.config.impl.Parseable.rawParseValue(Parseable.java:187)
+[Apr 19 14:16:18] [greed.Greed.initialize@L90]           and 45 more ...
+[Apr 19 14:16:32] [greed.Greed.initialize@L86] Greed[ERROR]: Loading config error, with an greed.conf.ConfigException: Conflict fields of outputFile and outputFileName at path greed.language.cpp.templateDef.unittest
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          greed.conf.ConfigParser.parseAndCheck(ConfigParser.java:119)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          greed.conf.ConfigParser.parseAndCheck(ConfigParser.java:95)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          greed.conf.ConfigParser.parseAndCheck(ConfigParser.java:95)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          greed.util.Configuration.loadConfig(Configuration.java:58)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          greed.util.Utils.initialize(Utils.java:13)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          greed.Greed.initialize(Greed.java:81)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          greed.ui.GreedEditorPanel.actionPerformed(GreedEditorPanel.java:100)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]          javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+[Apr 19 14:16:32] [greed.Greed.initialize@L86]           and 33 more ...
+[Apr 19 14:17:10] [greed.Greed.initialize@L86] Greed[ERROR]: Loading config error, with an greed.conf.ConfigException: Conflict fields of outputFile and outputFileName at path greed.language.cpp.templateDef.unittest
+[Apr 19 14:17:10] [greed.Greed.initialize@L86]          greed.conf.ConfigParser.parseAndCheck(ConfigParser.java:119)
+[Apr 19 14:17:10] [greed.Greed.initialize@L86]          greed.conf.ConfigParser.parseAndCheck(ConfigParser.java:95)
+[Apr 19 14:17:10] [greed.Greed.initialize@L86]          greed.conf.ConfigParser.parseAndCheck(ConfigParser.java:95)
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/light.theme.css
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/darkgray.theme.css
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/default.css
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: template.cpp
+[Apr 19 14:20:08] [greed.util.FileSystem.createFolder@L29] FileSystem[INFO]: Create folder [Test/SRM 548]
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/blue.theme.css
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/dark.theme.css
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/problem/desc.html.tmpl
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/testcase/testcases.tmpl
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/filetest/cpp.tmpl
+[Apr 19 14:20:08] [greed.util.FileSystem.getResource@L12] FileSystem[INFO]: Getting resource: /templates/source/cpp.tmpl

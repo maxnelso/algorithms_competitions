@@ -1,0 +1,76 @@
+#include <vector>
+#include <list>
+#include <fstream>
+#include <map>
+#include <set>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <cctype>
+#include <string>
+#include <cstring>
+#include <ctime>
+#include <iterator>
+
+#if DEBUG
+#include "prettyprint.hpp"
+#define print_container(c) cout << c << endl;
+#endif
+
+using namespace std;
+
+class SixteenBricks {
+  public: int maximumSurface(vector<int> height);
+};
+
+int SixteenBricks::maximumSurface(vector<int> height) {
+  return 0;
+}
+
+// CUT begin
+//------------------------------------------------------------------------------
+const double CASE_TIME_OUT = 2.0;
+
+bool disabledTest(int x)
+{
+    return x < 0;
+}
+template<class I, class O> vector<pair<I,O>> getTestCases() { return {
+    { { {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1} }, {32} },
+    { { {1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2} }, {64} },
+    { { {77,78,58,34,30,20,8,71,37,74,21,45,39,16,4,59} }, {1798} },
+    // Your custom test goes here:
+    //{ { {}}, {} },
+};}
+
+//------------------------------------------------------------------------------
+// Tester code:
+    //#define DISABLE_THREADS
+    #include "../tester.cpp"
+    struct input {
+        vector<int> p0;
+
+        int run(SixteenBricks* x) {
+            return x->maximumSurface(p0);
+        }
+        void print() { Tester::printArgs(p0); }
+    };
+    
+    int main() {
+        return Tester::runTests<SixteenBricks>(
+            getTestCases<input, Tester::output<int>>(), disabledTest, 
+            250, 1400353754, CASE_TIME_OUT, Tester::COMPACT_REPORT
+        );
+    }
+// CUT end

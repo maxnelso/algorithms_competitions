@@ -1,0 +1,10 @@
+[1;36mTest 2[0m: [{-1,-1,0,0,1},{-1,-1,1,2,2}]
+Adding to diffs 0 1   
+Adding same 2 1Adding to diffs 0 2   
+Time: 0.00 seconds.
+Your answer:
+	"Impossible"
+ [1;32m+[0m
+[0;2m=========================================================================[0m
+Family: [0;9;37md[0m [0;9;37md[0m [1;32m+[0m [0;9;37md[0m [0;9;37md[0m ([1;41m115.55[0m).
+/usr/bin/xclip

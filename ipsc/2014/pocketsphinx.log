@@ -1,0 +1,7 @@
+INFO: cmd_ln.c(506): Parsing command line:
+pocketsphinx_continuous l1.wav \
+	-hmm en-us \
+	-lm en-us.lm.dmp 
+
+ERROR: "cmd_ln.c", line 559: Unknown argument name 'pocketsphinx_continuous'
+ERROR: "cmd_ln.c", line 644: cmd_ln_parse_r failed

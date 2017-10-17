@@ -1,0 +1,135 @@
+#include <vector>
+#include <list>
+#include <fstream>
+#include <map>
+#include <set>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <cctype>
+#include <string>
+#include <cstring>
+#include <ctime>
+#include <iterator>
+
+#if DEBUG
+#include "prettyprint.hpp"
+#define print_container(c) cout << c << endl;
+#endif
+
+using namespace std;
+
+class SixteenBricks {
+  public: int maximumSurface(vector<int> height);
+};
+
+int get_surface_area(vector<vector<int> > grid) {
+  int out = 0;
+  //outsides
+  //top row
+  for (int i = 0; i < grid.size(); i++) {
+    out += grid[0][i];
+  }
+  //right side
+  for (int i = 0; i < grid.size(); i++) {
+    out += grid[i][3];
+  }
+  //bottom row
+  for (int i = 0; i < grid.size(); i++) {
+    out += grid[3][i];
+  }
+  //left side
+  for (int i = 0; i < grid.size(); i++) {
+    out += grid[i][0];
+  }
+
+  //inside
+  for (int i = 0; i < 4; i++) {
+    for (int j = 0; j < 4; j++) {
+      //above
+      if (i > 0) {
+        if (grid[i][j] > grid[i-1][j]) {
+          out += grid[i][j] - grid[i-1][j];
+        }
+      }
+      //right
+      if (j < 3) {
+        if (grid[i][j] > grid[i][j+1]) {
+          out += grid[i][j] - grid[i][j+1];
+        }
+      }
+      //bottom
+      if (i < 3) {
+        if (grid[i][j] > grid[i+1][j]) {
+          out += grid[i][j] - grid[i+1][j];
+        }
+      }
+      //left
+      if (j > 0) {
+        if (grid[i][j] > grid[i][j-1]) {
+          out += grid[i][j] - grid[i][j-1];
+        }
+      }
+    }
+  }
+
+  //top
+  out += 16;
+  return out;
+}
+
+int SixteenBricks::maximumSurface(vector<int> height) {
+  sort(height.begin(), height.end());
+  /*
+  vector<vector<int > > out;
+  int front = 0;
+  int back = 15;
+  bool big = true;
+  for (int i = 0; i < 4; i++) {
+    vector<int> row;
+    for (int j = 0; j < 4; j++) {
+      if (big) {
+        row.push_back(height[back--]);
+      } else {
+        row.push_back(height[front++]);
+      }
+      big = !big;
+    }
+    out.push_back(row);
+    print_container(row);
+    big = !big;
+  }
+  */
+  vector<vector<int > > out;
+  for (int i = 0; i < 4; i++) {
+    vector<int> row(4);
+    out.push_back(row);
+  }
+  out[0][0] = height[15];
+  out[0][1] = height[0];
+  out[1][0] = height[1];
+
+  return get_surface_area(out);
+}
+
+    int main() {
+      vector<vector<int > > test = { {78, 30, 58, 77},
+                                     { 34, 8, 20, 59},
+                                     { 45, 16, 4, 21},
+                                     { 74, 59, 37, 71} };
+      cout << get_surface_area(test) << endl;
+    //  vector<int> test = {77, 78, 58, 34, 30, 20, 8, 71, 37, 74, 21, 45, 39, 16, 4, 59};
+      //SixteenBricks dummy = SixteenBricks();
+      //cout << dummy.maximumSurface(test);
+    }

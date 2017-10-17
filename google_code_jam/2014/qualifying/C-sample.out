@@ -1,0 +1,237 @@
+Case #1: doing it row wiseBefore everything
+*****
+*****
+*****
+****.
+****.
+-1-1-1-1-1
+-1-1-1-1-1
+-1-1-1-1-1
+-1-1-1-1BAD at (3, 4)
+-1-1-1-11
+*****
+*****
+*****
+****?
+****c
+Case #2: doing it row wiseBefore everything
+*
+.
+.
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+Adding (1, 0)
+Attempting (0, -1)
+Attempting (0, 0)
+Attempting (0, 1)
+Attempting (1, -1)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 0)
+Attempting (2, 1)
+-1
+0
+0
+*
+.
+c
+Case #3: REALLY BAD
+Impossible
+Before everything
+*.
+..
+Case #4: doing it column wiseBefore everything
+***....
+.......
+.......
+.......
+Attempting (2, 5)
+Attempting (2, 6)
+Attempting (2, 7)
+Attempting (3, 5)
+Attempting (3, 7)
+Attempting (4, 5)
+Attempting (4, 6)
+Attempting (4, 7)
+Adding (2, 5)
+Adding (2, 6)
+Adding (3, 5)
+Attempting (2, 4)
+Attempting (2, 5)
+Attempting (2, 6)
+Attempting (3, 4)
+Attempting (3, 6)
+Attempting (4, 4)
+Attempting (4, 5)
+Attempting (4, 6)
+Adding (2, 4)
+Adding (3, 4)
+Attempting (2, 3)
+Attempting (2, 4)
+Attempting (2, 5)
+Attempting (3, 3)
+Attempting (3, 5)
+Attempting (4, 3)
+Attempting (4, 4)
+Attempting (4, 5)
+Adding (2, 3)
+Adding (3, 3)
+Attempting (2, 2)
+Attempting (2, 3)
+Attempting (2, 4)
+Attempting (3, 2)
+Attempting (3, 4)
+Attempting (4, 2)
+Attempting (4, 3)
+Attempting (4, 4)
+Adding (2, 2)
+Attempting (1, 1)
+Attempting (1, 2)
+Attempting (1, 3)
+Attempting (2, 1)
+Attempting (2, 3)
+Attempting (3, 1)
+Attempting (3, 2)
+Attempting (3, 3)
+Adding (1, 1)
+Adding (1, 2)
+Adding (1, 3)
+Adding (2, 1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (1, 2)
+Attempting (2, 0)
+Attempting (2, 2)
+Attempting (3, 0)
+Attempting (3, 1)
+Attempting (3, 2)
+Adding (1, 0)
+Adding (2, 0)
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+Attempting (1, -1)
+Attempting (1, 0)
+Attempting (1, 1)
+Attempting (2, -1)
+Attempting (2, 1)
+Attempting (3, -1)
+Attempting (3, 0)
+Attempting (3, 1)
+-1-1-1BAD at (0, 3)
+BAD at (1, 0)
+000BAD at (2, 3)
+BAD at (3, 0)
+***????
+???????
+...????
+???...c
+Case #5: doing it row wiseBefore everything
+*********.
+*********.
+********..
+********..
+********..
+********..
+********..
+********..
+********..
+********..
+Attempting (8, 8)
+Attempting (8, 9)
+Attempting (8, 10)
+Attempting (9, 8)
+Attempting (9, 10)
+Attempting (10, 8)
+Attempting (10, 9)
+Attempting (10, 10)
+Adding (8, 8)
+Adding (8, 9)
+Adding (9, 8)
+-1-1-1-1-1-1-1-1-1BAD at (0, 9)
+-1-1-1-1-1-1-1-1-1BAD at (1, 9)
+-1-1-1-1-1-1-1-1BAD at (2, 8)
+-1-1-1-1-1-1-1-1BAD at (3, 8)
+-1-1-1-1-1-1-1-1BAD at (4, 8)
+-1-1-1-1-1-1-1-1BAD at (5, 8)
+-1-1-1-1-1-1-1-1BAD at (6, 8)
+-1-1-1-1-1-1-1-1BAD at (7, 8)
+-1-1-1-1-1-1-1-1BAD at (8, 8)
+-1-1-1-1-1-1-1-110
+*********?
+*********?
+********??
+********??
+********??
+********??
+********??
+********??
+********??
+********.c

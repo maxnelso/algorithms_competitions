@@ -1,0 +1,12 @@
+jump a; -> go to input; dup
+jump x; -> go to print
+jump y; -> go to push 6
+pop; *;
+pop
+push -1; *;
+push 5; jump b; -> go to pop; *
+push 6; jump a; -> go to pop
+print; jump z -> go to end
+jump z; -> go to push 5
+input; dup
+jump 1;

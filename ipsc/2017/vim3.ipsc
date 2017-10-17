@@ -1,0 +1,6 @@
+input; jump 4;
+input; jump 5;
+pop
+print
+push -1; *;
+push 5; jump 3;

@@ -1,0 +1,107 @@
+[1;36mTest 0[0m: [56,14]
+Returning at 14 14 2
+Returning at 4 2 2
+Returning at 4 2 2
+Time: 0.17 seconds.
+Your answer:
+	3
+ [1;32m+[0m
+[0;2m=========================================================================[0m
+[1;36mTest 1[0m: [49,5]
+Returning at 1 1 2
+Time: 0.17 seconds.
+Your answer:
+	2
+ [1;32m+[0m
+[0;2m=========================================================================[0m
+[1;36mTest 2[0m: [256,7]
+Returning at 2 1 7
+Time: 0.17 seconds.
+Desired answer:
+	6
+Your answer:
+	7
+ [1;31mX[0m
+[0;2m=========================================================================[0m
+[1;36mTest 3[0m: [6,1]
+Returning at 6 1 0
+Time: 0.17 seconds.
+Your answer:
+	0
+ [1;32m+[0m
+[0;2m=========================================================================[0m
+[1;36mTest 4[0m: [77777,11111]
+Returning at 11111 11111 1
+Returning at 271 271 2
+Returning at 7 2 2
+Returning at 41 41 2
+Returning at 7 2 2
+Time: 0.17 seconds.
+Your answer:
+	2
+ [1;32m+[0m
+[0;2m=========================================================================[0m
+[1;36mTest 5[0m: [123456,12347]
+Returning at 1 1 8
+Returning at 3 2 7
+Returning at 1 1 8
+Returning at 2 1 7
+Returning at 3 2 7
+Returning at 2 1 7
+Returning at 1 1 8
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 3 2 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 1 1 8
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 3 2 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 1 1 8
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 3 2 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 1 1 8
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 3 2 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 1 1 8
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 3 2 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Returning at 2 1 7
+Time: 0.18 seconds.
+Your answer:
+	7
+ [1;32m+[0m
+[0;2m=========================================================================[0m
+DivideAndShift: [1;32m+[0m [1;32m+[0m [1;31mX[0m [1;32m+[0m [1;32m+[0m [1;32m+[0m ([1;41m172.25[0m).
+/usr/bin/xclip
